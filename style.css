@@ -1,0 +1,11 @@
+/*
+Theme Name: SalvationAuto
+Text Domain: SalvationAuto
+Version: 1.0
+Author: Complex Brains Software Engineers
+Author URI: https://complexbrains.com/
+*/
+
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
