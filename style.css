@@ -6,6 +6,8 @@ Author: Complex Brains Software Engineers
 Author URI: https://complexbrains.com/
 */
 
-@import './fonts.css';
-@import './tailwind.css';
-@import './theme.css';
+@import './assets/css/fonts.css';
+@import './assets/css/theme.css';
+@import './assets/css/header.css';
+@import './assets/css/home-hero.css';
+@import "./assets/css/footer.css";

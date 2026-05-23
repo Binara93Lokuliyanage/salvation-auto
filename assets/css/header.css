@@ -1,0 +1,49 @@
+.site-header {
+    width: 100%;
+    background: var(--background);
+    
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.site-header .img-wrapper{
+    width: auto;
+    height: 50px;
+}
+
+.site-header .img-wrapper img {
+    width: auto;
+    height: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-bar .button:hover {
+    color: var(--popover) !important;   
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.current-menu-item a {
+    color: var(--primary);
+    font-weight: var(--font-weight-medium);
+    text-decoration: underline;
+}
+
+
+.nav-menu a:hover {
+  color: var(--primary);
+}
+
