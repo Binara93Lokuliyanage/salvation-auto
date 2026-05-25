@@ -3,7 +3,18 @@
   color: var(--primary-foreground);
 }
 
+.site-footer p {
+  color: var(--primary-foreground);
+}
+
 .site-footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-main {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
@@ -38,15 +49,22 @@
   gap: 1rem;
 }
 
-.footer-links a .contact-icon {
+.contact-icon {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 0.25rem;
 
 }
 
-.footer-links a .contact-icon img {
+.contact-icon img {
   width: 20px;
   height: 20px;
   background: transparent;
+}
+
+.footer-copyrights{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
 }

@@ -25,4 +25,5 @@
 .home-hero-container .btn-wrapper {
     display: flex;
     gap: 1rem;
+    margin-top: 2.5rem;
 }

@@ -1,6 +1,9 @@
 .site-header {
     width: 100%;
     background: var(--background);
+    position: sticky;
+    top: 1rem;
+    transition: var(--transition);
     
 }
 
@@ -8,7 +11,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    transition: var(--transition);
 }
 
 .site-header .img-wrapper{
@@ -40,10 +44,12 @@
     color: var(--primary);
     font-weight: var(--font-weight-medium);
     text-decoration: underline;
+    transition: var(--transition);
 }
 
 
 .nav-menu a:hover {
   color: var(--primary);
+  transform: translateY(-2px);
 }
 
