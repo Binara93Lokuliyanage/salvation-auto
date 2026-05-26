@@ -17,6 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 	<section class="site-header">
 		<div class="container">
 			<div class="img-wrapper">
@@ -34,6 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					array(
 						'theme_location' => 'primary',
 						'menu_class'     => 'nav-menu',
+						'menu_id'        => 'primary-navigation',
 						'container'      => false,
 					)
 				);
@@ -41,6 +43,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 				<a href="#" class="button">Book Now</a>
 			</div>
+			<div class="mobile-nav-bar">
+				<button class="mobile-nav-icon" type="button" aria-controls="primary-navigation" aria-expanded="false">
+					<span class="mobile-nav-icon-open" aria-hidden="true">
+						<?php echo file_get_contents(get_template_directory() . '/assets/images/svg/menu.svg'); ?>
+					</span>
+					<span class="mobile-nav-icon-close" aria-hidden="true">
+						<?php echo file_get_contents(get_template_directory() . '/assets/images/svg/menu-close.svg'); ?>
+					</span>
+					<span class="screen-reader-text"><?php esc_html_e( 'Toggle navigation', 'salvation-auto' ); ?></span>
+				</button>
+			</div>
 		</div>
 	</section>
-<?php wp_body_open(); ?>

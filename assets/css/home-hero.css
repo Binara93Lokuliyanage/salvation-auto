@@ -25,4 +25,25 @@
 .home-hero-container .btn-wrapper {
     display: flex;
     gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+@media only screen and (max-width: 740px) {
+    .btn-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home-hero-container {
+        grid-template-columns: 1fr;
+    }
+
+    .home-hero-container .image-wrapper {
+        height: 300px;
+    }
+    
+    .home-hero-container .content-wrapper h1, .home-hero-container .content-wrapper h4{
+        text-align: center;
+    }
 }
