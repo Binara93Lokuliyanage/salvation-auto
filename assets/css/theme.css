@@ -333,6 +333,27 @@ ul {
   font-weight: var(--font-weight-medium);
 }
 
+.card-price-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  align-items: center;
+}
+
+.card-price {
+  color: var(--primary);
+  font-weight: var(--font-weight-bold);
+  font-size: 1.2rem;
+}
+
+.card-button {
+  color: var(--primary);
+  font-weight: var(--font-weight-medium);
+  font-size: 0.875rem;
+}
+
 .cta-container {
   display: flex;
   flex-direction: column;
@@ -343,6 +364,19 @@ ul {
 
 .cta-container a {
   margin-top: 1.5rem
+}
+
+.page-hero-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 3rem 0 3rem 0;
+}
+
+.page-hero-container h4 {
+ max-width: 600px;
+ align-self: center;
 }
 
 @media only screen and (max-width: 960px) {
