@@ -10,11 +10,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 function salvation_auto_enqueue_assets() {
+	$theme_version = wp_get_theme()->get( 'Version' );
+
 	wp_enqueue_style(
 		'salvation-auto-style',
 		get_stylesheet_uri(),
 		array(),
-		wp_get_theme()->get( 'Version' )
+		$theme_version
+	);
+
+	wp_enqueue_script(
+		'salvation-auto-app',
+		get_template_directory_uri() . '/assets/js/app.js',
+		array(),
+		$theme_version,
+		true
 	);
 }
 add_action( 'wp_enqueue_scripts', 'salvation_auto_enqueue_assets' );

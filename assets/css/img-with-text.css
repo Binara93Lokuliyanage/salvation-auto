@@ -55,3 +55,23 @@
     background: rgba(0, 7, 99, 0.1);
     padding: 0.5rem;
 }
+
+@media only screen and (max-width: 960px) {
+  .img-with-text-container {
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .img-with-text-container {
+        grid-template-columns: 1fr;
+    }
+
+    .img-with-text-container .image-wrapper {
+        height: 300px;
+    }
+    
+    .img-with-text-container .content-wrapper h2, .img-with-text-container .content-wrapper p {
+        text-align: center;
+    }
+}

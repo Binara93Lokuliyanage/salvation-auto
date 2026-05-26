@@ -20,9 +20,24 @@
 .statistic-number {
     color: var(--primary);
     font-weight: var(--font-weight-bold);
+    font-variant-numeric: tabular-nums;
 }
 
 .statistic-description {
     color: var(--muted-foreground);
     font-weight: var(--font-weight-medium);
+}
+
+@media only screen and (max-width: 740px) {
+  .statictics-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .statictics-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }

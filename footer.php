@@ -9,7 +9,6 @@ if (!defined('ABSPATH')) {
 	exit;
 }
 ?>
-<?php wp_footer(); ?>
 <section class="site-footer section-padding-top section-padding-bottom">
 	<div class="container">
 		<div class="footer-main">
@@ -38,7 +37,7 @@ if (!defined('ABSPATH')) {
 			</div>
 			<div class="footer-block">
 				<h5>Services</h5>
-				<div class class="footer-links">
+				<div class="footer-links">
 					<ul>
 						<li><a href="#">Oil Change</a></li>
 						<li><a href="#">Brake Repair</a></li>
@@ -89,6 +88,7 @@ if (!defined('ABSPATH')) {
 		</div>
 	</div>
 </section>
+<?php wp_footer(); ?>
 </body>
 
 </html>

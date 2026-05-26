@@ -233,7 +233,7 @@ h5 {
 .container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 3rem;
 }
 
 ul {
@@ -343,4 +343,26 @@ ul {
 
 .cta-container a {
   margin-top: 1.5rem
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  .cards-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  h1, .h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .cards-4 {
+    grid-template-columns: 1fr;
+  }
 }
