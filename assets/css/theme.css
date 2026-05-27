@@ -393,10 +393,14 @@ ul {
   h1, .h1 {
     font-size: 3rem;
   }
+
+  .cards-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media only screen and (max-width: 540px) {
-  .cards-4 {
+  .cards-4, .cards-3 {
     grid-template-columns: 1fr;
   }
 }
