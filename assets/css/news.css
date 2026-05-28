@@ -1,0 +1,82 @@
+.news-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.insta-card {
+    padding: 0 !important;
+    gap: 0 !important;
+}
+
+.insta-card p {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+.insta-card-img-wrapper {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.insta-card-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.insta-card-img-wrapper:hover img {
+    transform: scale(1.05);
+}
+
+.insta-card-content {
+    padding: 1rem;
+    background-color: var(--card-bg);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.insta-card-feedback {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    align-items: center;
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+}
+
+.insta-card-feedback .feedback-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.insta-card-feedback .feedback-item span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.insta-card-feedback .feedback-item span img {
+    width: 14px;
+    height: 14px;
+}
+
+#sb_instagram #sbi_images .sbi_item {
+    border-radius: var(--radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+}
+
+#sb_instagram #sbi_images .sbi_item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    opacity: inherit !important;
+}
