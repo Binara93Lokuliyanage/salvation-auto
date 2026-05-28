@@ -230,6 +230,20 @@ h5 {
   font-weight: var(--font-weight-medium);
 }
 
+.button-insta {
+  color:var(--primary-foreground);
+  background: linear-gradient(
+    135deg,
+    #feda75 0%,
+    #fa7e1e 25%,
+    #d62976 50%,
+    #962fbf 75%,
+    #4f5bd5 100%
+  );
+  font-weight: var(--font-weight-medium);
+  gap: 0.5rem;
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -366,6 +380,10 @@ ul {
   margin-top: 1.5rem
 }
 
+.cta-container h4 {
+  max-width: 600px;
+}
+
 .page-hero-container {
   text-align: center;
   display: flex;
@@ -377,6 +395,23 @@ ul {
 .page-hero-container h4 {
  max-width: 600px;
  align-self: center;
+}
+
+.page-hero-img-wrapper {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-hero-img-wrapper img {
+  width: 40;
+  height: 40px;
+  background: transparent;
 }
 
 @media only screen and (max-width: 960px) {
