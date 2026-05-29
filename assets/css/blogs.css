@@ -1,0 +1,227 @@
+.blog-category-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.blog-category-container a {
+    padding: 0.5rem 1rem;
+    color: black;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    transition: var(--transition);
+    font-size: 0.9rem;
+}
+
+.blog-category-container a:hover {
+    transform: translateY(-2px);
+}
+
+.blog-category-container a:active {
+    background-color: var(--primary);
+    color: white;
+}
+
+.blog-post {
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.blog-post:hover .blog-post-img-wrapper img {
+    transform: scale(1.05);
+}
+
+.blog-post-img-wrapper {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: var(--radius) var(--radius) 0 0;   
+}
+
+.blog-post-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.blog-post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+.blog-post-category-wrapper {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.blog-post-category {
+    font-size: 0.8rem;
+    /* background-color: var(--primary); */
+    color: var(--accent-foreground);
+    font-weight: var(--font-weight-medium);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius);
+    width: fit-content;
+}
+
+.blog-post-title {
+    font-weight: var(--font-weight-medium);
+    color: var(--primary);
+}
+
+.blog-post-details {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.blog-post-excerpt {
+    margin:0;
+}
+
+.blog-post-excerpt p {
+    margin: 0;
+}
+
+.blog-post-details span {
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.blog-post-details span img {
+    width: 16px;
+    height: 16px;
+}
+
+.blog-post-read-more {
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+    color: var(--primary);
+    font-weight: var(--font-weight-medium);
+}
+
+/* Single Post Styles */
+
+.post-featured-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: var(--radius);
+}
+
+.post-featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single-post-title {
+    color: var(--primary);
+}
+
+.post-content {
+    max-width: 800px;
+    padding: 2rem 0;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    color: var(--primary);
+    margin: 0;
+}
+
+.post-content h1 {
+    font-size: 2.5rem;
+}
+
+.post-content h2 {
+    font-size: 1.75rem;
+}
+
+.post-content h3 {
+    font-size: 1.5rem;
+}
+
+.post-content h4 {
+    font-size: 1.25rem;
+}
+
+.post-content h5 {
+    font-size: 1.125rem;
+}
+
+.post-content h6 {
+    font-size: 1rem;
+}
+
+.post-content p, .post-content li {
+    color: var(--muted-foreground);
+}
+
+.post-content h1 + p,
+.post-content h2 + p,
+.post-content h3 + p,
+.post-content h4 + p,
+.post-content h5 + p,
+.post-content h6 + p,
+.post-content h1 + ul,
+.post-content h2 + ul,
+.post-content h3 + ul,
+.post-content h4 + ul,
+.post-content h5 + ul,
+.post-content h6 + ul,
+.post-content p + ul,
+.post-content li + figure {
+    margin-top: 1rem;
+}
+
+.post-content p + h1,
+.post-content p + h2,
+.post-content p + h3,
+.post-content p + h4,
+.post-content p + h5,
+.post-content p + h6,
+.post-content ul + h1,
+.post-content ul + h2,
+.post-content ul + h3,
+.post-content ul + h4,
+.post-content ul + h5,
+.post-content ul + h6 {
+    margin-top: 2rem;
+}
+
+.post-content ul {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+    list-style-type: circle;
+}
+
+.post-content ul li {
+    margin: 0.5rem 0;
+}
+
+.post-content a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.post-content img {
+    margin: 2rem 0;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}

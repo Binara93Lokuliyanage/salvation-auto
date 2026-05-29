@@ -32,6 +32,8 @@ add_action( 'wp_enqueue_scripts', 'salvation_auto_enqueue_assets' );
 
 function salvation_auto_setup() {
 
+add_theme_support('post-thumbnails');
+
 add_theme_support('custom-logo');
 
     register_nav_menus(array(
@@ -41,3 +43,4 @@ add_theme_support('custom-logo');
 }
 
 add_action('after_setup_theme', 'salvation_auto_setup');
+
