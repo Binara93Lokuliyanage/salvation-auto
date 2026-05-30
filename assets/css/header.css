@@ -2,7 +2,7 @@
     width: 100%;
     background: var(--background);
     position: sticky;
-    top: 1rem;
+    top: 0rem;
     transition: var(--transition);
     z-index: 5;
 }
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     padding-bottom: 1rem;
     transition: var(--transition);
 }
