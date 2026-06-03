@@ -33,6 +33,8 @@ if (!defined('ABSPATH')) {
 						)
 					);
 					?>
+					<a href="privacy-policy">Privacy Policy</a>
+					<a href="terms-and-conditions">Terms and Conditions</a>
 				</div>
 			</div>
 			<div class="footer-block">

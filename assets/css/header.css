@@ -54,6 +54,10 @@
   transform: translateY(-2px);
 }
 
+.mobile-nav-bar {
+    display: none;
+}
+
 .mobile-nav-icon {
     display: none;
     cursor: pointer;
@@ -116,6 +120,10 @@
 
   .nav-bar.is-open .nav-menu li {
     text-align: center;
+  }
+
+  .mobile-nav-bar {
+    display: block;
   }
 
   .mobile-nav-icon {

@@ -41,7 +41,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				);
 				?>
 
-				<a href="#" class="button">Book Now</a>
+				<a href="contact#contact-form-section" class="button">Book Now</a>
 			</div>
 			<div class="mobile-nav-bar">
 				<button class="mobile-nav-icon" type="button" aria-controls="primary-navigation" aria-expanded="false">

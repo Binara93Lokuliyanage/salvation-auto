@@ -24,8 +24,8 @@ get_header();
 				<h4 class="description">Your trusted partner for quality used cars. Explore our wide selection and find
 					your perfect ride today!</h4>
 				<div class="btn-wrapper">
-					<a href="#" class="button button-white">Book Appointment</a>
-					<a href="#" class="button button-blank">Our Services</a>
+					<a href="contact#contact-form-section" class="button button-white">Book Appointment</a>
+					<a href="services" class="button button-blank">Our Services</a>
 				</div>
 			</div>
 			<div class="image-wrapper">
@@ -143,7 +143,7 @@ get_header();
 		<div class="container cta-container">
 			<h2 class="title">Ready to Get Started?</h2>
 			<h4>Schedule your appointment today and experience the Salvation Auto difference.</h4>
-			<a href="#" class="button button-white">Book Appointment</a>
+			<a href="contact#contact-form-section" class="button button-white">Book Appointment</a>
 		</div>
 	</section>
 </main>

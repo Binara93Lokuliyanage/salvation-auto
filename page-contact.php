@@ -14,7 +14,7 @@ get_header();
         <h4>Get in touch with our team for any inquiries or to schedule a service</h4>
     </div>
 </section>
-<section class="section-padding-top section-padding-bottom">
+<section class="section-padding-top section-padding-bottom" id="contact-form-section">
     <div class="container contact-container">
         <div class="contact-form-wrapper">
             <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 2 ) ); ?>
