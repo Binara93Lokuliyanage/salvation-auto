@@ -44,9 +44,11 @@
   text-decoration: none;
 }
 
-.footer-links a {
+.footer-links a,
+.footer-contact-item {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 .contact-icon {

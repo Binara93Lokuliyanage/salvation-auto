@@ -27,7 +27,7 @@ get_header();
                 </div>
                 <div class="contact-info-text">
                     <span class="contact-info-label">Phone</span>
-                    <a href="tel:+1234567890" class="contact-info-link">(+61) 2 1234 5678</a>
+                    <a href="tel:+61470616952" class="contact-info-link">(+61) 470 616 952</a>
                     <p class="contact-info-description">Available Monday to Friday, 8:00 AM - 6:00 PM</p>
                 </div>
             </div>
@@ -37,7 +37,7 @@ get_header();
                 </div>
                 <div class="contact-info-text">
                     <span class="contact-info-label">Email</span>
-                    <a href="mailto:info@salvationauto.com" class="contact-info-link">info@salvationauto.com</a>
+                    <a href="mailto:office@salvationauto.com.au" class="contact-info-link">office@salvationauto.com.au</a>
                     <p class="contact-info-description">We'll respond to your inquiry within 24 hours</p>
                 </div>
             </div>
@@ -48,7 +48,7 @@ get_header();
                 </div>
                 <div class="contact-info-text">
                     <span class="contact-info-label">Address</span>
-                    <p class="contact-info-link">123 Main Street, Sydney, NSW 2000</p>
+                    <p class="contact-info-link">Melbourne, Australia</p>
                     <p class="contact-info-description">Visit us for expert automotive services and consultations</p>
                 </div>
             </div>
@@ -65,7 +65,7 @@ get_header();
             <div class="card bg-gradient contact-card">
                 <h4>Emergency Service</h4>
                 <p>Need immediate assistance? Our 24/7 emergency service is available for urgent repairs.</p>
-                <a href="tel:+1234567890" class="button button-white">Call Emergency Line</a>
+                <a href="tel:+61470616952" class="button button-white">Call Emergency Line</a>
             </div>
         </div>
     </div>

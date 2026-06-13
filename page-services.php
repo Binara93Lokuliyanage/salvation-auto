@@ -26,116 +26,88 @@ get_header();
     <section class="section-padding-top section-padding-bottom">
         <div class="container services-container">
             <div class="cards-3">
-                <div class="card">
+                <div class="card" id="on-site">
                     <div class="card-icon">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/cog-wheel.svg"
                             alt="Cog Wheel Icon">
                     </div>
-                    <h4 class="card-title">Engine Diagnostics & Repair</h4>
+                    <h4 class="card-title">On-site Diagnostics</h4>
                     <p class="card-description">
-                        Comprehensive engine diagnostics and expert repair services for all makes and models.
+                        Advanced on-site diagnostics to quickly identify and resolve vehicle issues, saving you time and hassle.
                     </p>
                     <div class="card-price-wrapper">
-                        <span class="card-price">From $99.99</span>
-                        <a href="#" class="card-button">Book Now →</a>
+                        <span class="card-price"></span>
+                        <a href="contact#contact-form-section" class="card-button">Book Now →</a>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-icon">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/drop.svg"
-                            alt="Drop Icon">
-                    </div>
-                    <h4 class="card-title">Oil Change Service</h4>
-                    <p class="card-description">
-                        Quick and efficient oil changes using premium quality oils to keep your engine running smoothly.
-                    </p>
-                    <div class="card-price-wrapper">
-                        <span class="card-price">From $99.99</span>
-                        <a href="#" class="card-button">Book Now →</a>
-                    </div>
-                </div>
-                <div class="card">
+                <div class="card" id="warranty-safe">
                     <div class="card-icon">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/car.svg"
                             alt="Car Icon">
                     </div>
-                    <h4 class="card-title">Brake Service</h4>
+                    <h4 class="card-title">Warranty-Safe Logbooks Services</h4>
                     <p class="card-description">
-                        Complete brake inspection, pad replacement, and rotor resurfacing for optimal safety.
+                        Comprehensive logbook services to maintain your vehicle's warranty and ensure proper maintenance records.
                     </p>
                     <div class="card-price-wrapper">
-                        <span class="card-price">From $99.99</span>
-                        <a href="#" class="card-button">Book Now →</a>
+                        <span class="card-price"></span>
+                        <a href="contact#contact-form-section" class="card-button">Book Now →</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="pre-purchase">
                     <div class="card-icon">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/speedo.svg"
                             alt="Speedo Icon">
                     </div>
-                    <h4 class="card-title">Tire Service</h4>
+                    <h4 class="card-title">Pre-Purchase & Safety Inspections</h4>
                     <p class="card-description">
-                        Tire rotation, balancing, alignment, and replacement services to extend tire life.
+                        Comprehensive pre-purchase inspections to ensure you make informed decisions about your next vehicle.
                     </p>
                     <div class="card-price-wrapper">
-                        <span class="card-price">From $99.99</span>
-                        <a href="#" class="card-button">Book Now →</a>
+                        <span class="card-price"></span>
+                        <a href="contact#contact-form-section" class="card-button">Book Now →</a>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-icon">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/battery.svg"
-                            alt="Battery Icon">
-                    </div>
-                    <h4 class="card-title">Battery Service</h4>
-                    <p class="card-description">
-                        Battery testing, replacement, and maintenance to ensure reliable starting and electrical performance.
-                    </p>
-                    <div class="card-price-wrapper">
-                        <span class="card-price">From $99.99</span>
-                        <a href="#" class="card-button">Book Now →</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-icon">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/wind.svg"
-                            alt="Wind Icon">
-                    </div>
-                    <h4 class="card-title">AC & Heating</h4>
-                    <p class="card-description">
-                        Comprehensive climate control services to keep you comfortable year-round.
-                    </p>
-                    <div class="card-price-wrapper">
-                        <span class="card-price">From $99.99</span>
-                        <a href="#" class="card-button">Book Now →</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-icon">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/wrench.svg"
-                            alt="Wrench Icon">
-                    </div>
-                    <h4 class="card-title">Transmission Service</h4>
-                    <p class="card-description">
-                        Comprehensive transmission services to ensure smooth shifting and optimal performance.
-                    </p>
-                    <div class="card-price-wrapper">
-                        <span class="card-price">From $99.99</span>
-                        <a href="#" class="card-button">Book Now →</a>
-                    </div>
-                </div>
-                <div class="card">
+                <div class="card" id="electrical">
                     <div class="card-icon">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/thunder.svg"
                             alt="Thunder Icon">
                     </div>
-                    <h4 class="card-title">Electrical Systems</h4>
+                    <h4 class="card-title">Electrical Work</h4>
                     <p class="card-description">
                         Comprehensive electrical system diagnostics and repairs to keep your vehicle's wiring and components functioning properly.
                     </p>
                     <div class="card-price-wrapper">
-                        <span class="card-price">From $99.99</span>
-                        <a href="#" class="card-button">Book Now →</a>
+                        <span class="card-price"></span>
+                        <a href="contact#contact-form-section" class="card-button">Book Now →</a>
+                    </div>
+                </div>
+                <div class="card" id="full-system">
+                    <div class="card-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/wind.svg"
+                            alt="Wind Icon">
+                    </div>
+                    <h4 class="card-title">Full System Fault Scanning</h4>
+                    <p class="card-description">
+                        Comprehensive full system fault scanning to identify and address any issues affecting your vehicle's performance.
+                    </p>
+                    <div class="card-price-wrapper">
+                        <span class="card-price"></span>
+                        <a href="contact#contact-form-section" class="card-button">Book Now →</a>
+                    </div>
+                </div>
+                <div class="card" id="general-repairs">
+                    <div class="card-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/wrench.svg"
+                            alt="Wrench Icon">
+                    </div>
+                    <h4 class="card-title">General Repairs</h4>
+                    <p class="card-description">
+                        Comprehensive general repairs to keep your vehicle running smoothly.
+                    </p>
+                    <div class="card-price-wrapper">
+                        <span class="card-price"></span>
+                        <a href="contact#contact-form-section" class="card-button">Book Now →</a>
                     </div>
                 </div>
             </div>

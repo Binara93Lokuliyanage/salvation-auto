@@ -33,7 +33,7 @@ get_header();
 			</div>
 		</div>
 	</section>
-	<section class="section-padding-top section-padding-bottom">
+	<!-- <section class="section-padding-top section-padding-bottom">
 		<div class="container statictics-container">
 			<div class="statistic-item">
 				<h2 class="statistic-number">500+</h2>
@@ -52,6 +52,47 @@ get_header();
 				<p class="statistic-description">Expert Technicians</p>
 			</div>
 		</div>
+	</section> -->
+	<section class="section-padding-top section-padding-bottom">
+		<div class="container img-with-text-container">
+			<div class="image-wrapper">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/why-choose-us.jfif" alt="About Us Image">
+			</div>
+			<div class="content-wrapper">
+				<h2 class="title">About Salvation Auto</h2>
+				<p>At Salvation Auto, we are passionate about providing top-notch automotive services to our community. With over a decade of experience, we have built a reputation for excellence and reliability. Our team of skilled technicians is dedicated to ensuring your vehicle runs smoothly and safely. We pride ourselves on our commitment to customer satisfaction, offering transparent pricing and personalized service. Whether you need routine maintenance or complex repairs, Salvation Auto is your trusted partner for all your automotive needs.</p>
+				<div class="list-wrapper">
+					<div class="list-item">
+						<div class="contact-icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/circle-check-blue.svg" alt="Check Icon">
+						</div>
+
+						<p>Comprehensive auto care services</p>
+					</div>
+					<div class="list-item">
+						<div class="contact-icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/circle-check-blue.svg" alt="Check Icon">
+						</div>
+
+						<p>Experienced and certified technicians</p>
+					</div>
+					<div class="list-item">
+						<div class="contact-icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/circle-check-blue.svg" alt="Check Icon">
+						</div>
+
+						<p>Customer-focused service approach</p>
+					</div>
+					<div class="list-item">
+						<div class="contact-icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/circle-check-blue.svg" alt="Check Icon">
+						</div>
+
+						<p>Convenient location and hours</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<section class="section-padding-top section-padding-bottom bg-secondary">
 		<div class="container about-container">
@@ -60,7 +101,7 @@ get_header();
 				<p>We combine expertise, quality, and customer service to deliver the best auto care experience.</p>
 			</div>
 			<div class="cards-4">
-				<div class="card">
+				<div class="card bg-white">
 					<div class="card-icon">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/shield.svg"
 							alt="Shield Icon">
@@ -97,6 +138,21 @@ get_header();
 		</div>
 	</section>
 	<section class="section-padding-top section-padding-bottom">
+    <div class="container news-container">
+        <div class="common-content-wrapper">
+				<h2 class="title">Latest Updates</h2>
+				<p>Stay up-to-date with the latest news and updates from Salvation Auto.</p>
+			</div>
+       
+        <div class="instagram-feed-wrapper">
+            <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
+        </div>
+		<a class="button button-insta" href="news#instagram-feed">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/instagram.svg" alt="News Icon"><span>Follow us on Instagram</span>
+        </a>
+    </div>
+</section>
+	<!-- <section class="section-padding-top section-padding-bottom">
 		<div class="container img-with-text-container">
 			<div class="image-wrapper">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/why-choose-us.jfif"
@@ -138,7 +194,7 @@ get_header();
 			</div>
 			
 		</div>
-	</section>
+	</section> -->
 	<section class="section-padding-top section-padding-bottom bg-secondary-gradient">
 		<div class="container cta-container">
 			<h2 class="title">Ready to Get Started?</h2>

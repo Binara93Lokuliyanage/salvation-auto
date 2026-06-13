@@ -11,14 +11,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
     transition: var(--transition);
 }
 
 .site-header .img-wrapper{
     width: auto;
-    height: 50px;
+    height: 65px;
 }
 
 .site-header .img-wrapper img {

@@ -41,45 +41,47 @@ if (!defined('ABSPATH')) {
 				<h5>Services</h5>
 				<div class="footer-links">
 					<ul>
-						<li><a href="#">Oil Change</a></li>
-						<li><a href="#">Brake Repair</a></li>
-						<li><a href="#">Tire Services</a></li>
-						<li><a href="#">Engine Diagnostics</a></li>
+						<li><a href="services#on-site">On-site Diagnostics</a></li>
+						<li><a href="services#warranty-safe">Warranty-Safe Logbooks Services</a></li>
+						<li><a href="services#pre-purchase">Pre-Purchase & Safety Inspections</a></li>
+						<li><a href="services#electrical">Electrical Work</a></li>
+						<li><a href="services#full-system">Full System Fault Scanning</a></li>
+						<li><a href="services#general-repairs">General Repairs</a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="footer-block">
 				<h5>Contact Info</h5>
 				<div class="footer-links">
-					<a href="tel:+1234567890">
+					<a href="tel:+61470616952">
 
 						<span class="contact-icon">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/phone.svg"
 								alt="Phone Icon" class="contact-icon">
 						</span>
 
-						<span>(123) 456-7890</span>
+						<span>(+61) 470 616 952</span>
 
 					</a>
-					<a href="mailto:info@salvationauto.com">
+					<a href="mailto:office@salvationauto.com.au">
 
 						<span class="contact-icon">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/email.svg"
 								alt="Email Icon" class="contact-icon">
 						</span>
 
-						<span>info@salvationauto.com</span>
+						<span>office@salvationauto.com.au</span>
 
 					</a>
-					<a href="https://goo.gl/maps/yourlocation" target="_blank">
+					<a href="#" >
 
 						<span class="contact-icon">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/location.svg"
 								alt="Location Icon" class="contact-icon">
 						</span>
 
-						<span>123 Main St, Anytown, USA</span>
-					</a>
+						<span>Melbourne, Australia</span>
+</a>
 				</div>
 			</div>
 
