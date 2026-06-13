@@ -195,13 +195,13 @@ get_header();
 			
 		</div>
 	</section> -->
-	<section class="section-padding-top section-padding-bottom bg-secondary-gradient">
+	<!-- <section class="section-padding-top section-padding-bottom bg-secondary-gradient">
 		<div class="container cta-container">
 			<h2 class="title">Ready to Get Started?</h2>
 			<h4>Schedule your appointment today and experience the Salvation Auto difference.</h4>
 			<a href="contact#contact-form-section" class="button button-white">Book Appointment</a>
 		</div>
-	</section>
+	</section> -->
 </main>
 
 <?php
