@@ -304,6 +304,18 @@ ul {
   gap: 1.5rem;
 }
 
+.services-container .cards-3 {
+  grid-auto-rows: 1fr;
+}
+
+.services-container .cards-3 > .card {
+  height: 100%;
+}
+
+.services-container .card-price-wrapper {
+  margin-top: auto;
+}
+
 .cards-4 {
   width: 100%;
   display: grid;
@@ -438,5 +450,9 @@ ul {
 @media only screen and (max-width: 540px) {
   .cards-4, .cards-3 {
     grid-template-columns: 1fr;
+  }
+
+  .services-container .cards-3 {
+    grid-auto-rows: auto;
   }
 }

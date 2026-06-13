@@ -105,8 +105,8 @@ get_header();
         </p>
 
         <ul>
-            <li>Email: info@salvationauto.com.au</li>
-            <li>Phone: (03) XXXX XXXX</li>
+            <li>Email: office@salvationauto.com.au</li>
+            <li>Phone: (+61) 470 616 952</li>
         </ul>
 
     </div>
