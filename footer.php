@@ -87,7 +87,7 @@ if (!defined('ABSPATH')) {
 
 		</div>
 		<div class="footer-copyrights">
-			<p>&copy; <?php echo date('Y'); ?> Salvation Auto. All rights reserved.</p>
+			<p>&copy; <?php echo date('Y'); ?> Salvation Auto. All rights reserved. ABN 56 325 220 066</p>
 			<p>Designed by <a href="https://complexbrains.com" target="_blank">Complex Brains Software Engineers</a></p>
 		</div>
 	</div>

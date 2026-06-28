@@ -35,10 +35,10 @@ get_header();
                     <p class="card-description">
                         Advanced on-site diagnostics to quickly identify and resolve vehicle issues, saving you time and hassle.
                     </p>
-                    <div class="card-price-wrapper">
+                    <!-- <div class="card-price-wrapper">
                         <span class="card-price"></span>
                         <a href="contact#contact-form-section" class="card-button">Book Now →</a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="card" id="warranty-safe">
                     <div class="card-icon">
@@ -49,10 +49,10 @@ get_header();
                     <p class="card-description">
                         Comprehensive logbook services to maintain your vehicle's warranty and ensure proper maintenance records.
                     </p>
-                    <div class="card-price-wrapper">
+                    <!-- <div class="card-price-wrapper">
                         <span class="card-price"></span>
                         <a href="contact#contact-form-section" class="card-button">Book Now →</a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="card" id="pre-purchase">
                     <div class="card-icon">
@@ -63,10 +63,10 @@ get_header();
                     <p class="card-description">
                         Comprehensive pre-purchase inspections to ensure you make informed decisions about your next vehicle.
                     </p>
-                    <div class="card-price-wrapper">
+                    <!-- <div class="card-price-wrapper">
                         <span class="card-price"></span>
                         <a href="contact#contact-form-section" class="card-button">Book Now →</a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="card" id="electrical">
                     <div class="card-icon">
@@ -77,10 +77,10 @@ get_header();
                     <p class="card-description">
                         Comprehensive electrical system diagnostics and repairs to keep your vehicle's wiring and components functioning properly.
                     </p>
-                    <div class="card-price-wrapper">
+                    <!-- <div class="card-price-wrapper">
                         <span class="card-price"></span>
                         <a href="contact#contact-form-section" class="card-button">Book Now →</a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="card" id="full-system">
                     <div class="card-icon">
@@ -91,10 +91,10 @@ get_header();
                     <p class="card-description">
                         Comprehensive full system fault scanning to identify and address any issues affecting your vehicle's performance.
                     </p>
-                    <div class="card-price-wrapper">
+                    <!-- <div class="card-price-wrapper">
                         <span class="card-price"></span>
                         <a href="contact#contact-form-section" class="card-button">Book Now →</a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="card" id="general-repairs">
                     <div class="card-icon">
@@ -105,14 +105,15 @@ get_header();
                     <p class="card-description">
                         Comprehensive general repairs to keep your vehicle running smoothly.
                     </p>
-                    <div class="card-price-wrapper">
+                    <!-- <div class="card-price-wrapper">
                         <span class="card-price"></span>
                         <a href="contact#contact-form-section" class="card-button">Book Now →</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-
+<a href="contact#contact-form-section" class="button button-blue">Book Now</a>
         </div>
+        
     </section>
     <!-- <section class="section-padding-top section-padding-bottom bg-secondary">
         <div class="container service-plans-container">
