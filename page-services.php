@@ -114,7 +114,7 @@ get_header();
 
         </div>
     </section>
-    <section class="section-padding-top section-padding-bottom bg-secondary">
+    <!-- <section class="section-padding-top section-padding-bottom bg-secondary">
         <div class="container service-plans-container">
             <div class="service-plan-title-container">
                 <h2 class="service-plan-title">Maintenance Plans</h2>
@@ -142,14 +142,14 @@ get_header();
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maintenance-plans.jfif" alt="Maintenance Plans Image">
             </div>
         </div>
-    </section>
-    <section class="section-padding-top section-padding-bottom bg-secondary-gradient">
+    </section> -->
+    <!-- <section class="section-padding-top section-padding-bottom bg-secondary-gradient">
 		<div class="container cta-container">
 			<h2 class="title">Need Help Choosing a Service?</h2>
 			<h4>Our expert team is here to help you find the right service for your vehicle.</h4>
 			<a href="contact" class="button button-white">Call Now</a>
 		</div>
-	</section>
+	</section> -->
 </main>
 
 <?php

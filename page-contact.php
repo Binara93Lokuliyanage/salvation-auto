@@ -48,7 +48,7 @@ get_header();
                 </div>
                 <div class="contact-info-text">
                     <span class="contact-info-label">Address</span>
-                    <p class="contact-info-link">Melbourne, Australia</p>
+                    <p class="contact-info-link">Dandenong. Victoria, Australia</p>
                     <p class="contact-info-description">Visit us for expert automotive services and consultations</p>
                 </div>
             </div>
@@ -58,15 +58,15 @@ get_header();
                 </div>
                 <div class="contact-info-text">
                     <span class="contact-info-label">Business Hours</span>
-                    <p class="contact-info-link">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                    <p class="contact-info-link">Monday - Saturday: 8:00 AM - 8:00 PM</p>
                     <p class="contact-info-description">Closed on weekends and public holidays</p>
                 </div>
             </div>
-            <div class="card bg-gradient contact-card">
+            <!-- <div class="card bg-gradient contact-card">
                 <h4>Emergency Service</h4>
                 <p>Need immediate assistance? Our 24/7 emergency service is available for urgent repairs.</p>
                 <a href="tel:+61470616952" class="button button-white">Call Emergency Line</a>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

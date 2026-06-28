@@ -80,7 +80,7 @@ if (!defined('ABSPATH')) {
 								alt="Location Icon" class="contact-icon">
 						</span>
 
-						<span>Melbourne, Australia</span>
+						<span>Dandenong. Victoria, Australia</span>
 </a>
 				</div>
 			</div>
